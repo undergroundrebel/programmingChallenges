@@ -15,11 +15,11 @@ main()
 	bool AbsValue[MAXSIZE] = { 0 };
 
 	while (scanf("%d", &numInts) == 1) {				//while not end of file
-														//
-														// Dave:  You shouldn't need a pass to read in the numbers and a second pass to calculate the difference.
-														//        Reading in the values and calculating the difference can be done in one pass.
-														// Will fix in the c++ & C# versions.
-														//
+		//
+		// Dave:  You shouldn't need a pass to read in the numbers and a second pass to calculate the difference.
+		//        Reading in the values and calculating the difference can be done in one pass.
+		// Michelle: Will fix in the c++ & C# versions.
+		//
 		for (i = 0; i < numInts; i++)					// for the number of items on the line
 		{
 			scanf("%d", &Var[i]);				//shove that number into the variable array
