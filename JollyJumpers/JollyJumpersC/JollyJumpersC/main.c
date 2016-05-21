@@ -25,8 +25,6 @@ main()
 			scanf("%d", &Var[i]);				//shove that number into the variable array
 			AbsValue[i] = 0;							//set the memory for it in the absolute array to 0 - no one likes bad memory bits
 		}
-
-
 		for (i = 0; i < (numInts - 1); i++) {
 			AbsValue[abs(Var[i] - Var[i + 1])] = 1;	// loop through the var array, store a 1 at the location of the absolute difference between the values
 		}
