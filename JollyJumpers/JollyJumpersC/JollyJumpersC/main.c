@@ -1,8 +1,9 @@
-#ifdef _MSC_VER
-#define _CRT_SECURE_NO_WARNINGS
-#endif
+//#ifdef _MSC_VER
+//#define _CRT_SECURE_NO_WARNINGS
+//#endif
 
 #include <stdio.h>
+#include <stdlib.h>
 #define MAXSIZE 3000
 main()
 {
@@ -11,14 +12,14 @@ main()
 	//
 	int n, i, j, a, Var[MAXSIZE], Abs[MAXSIZE];
 
-	while (scanf("%d", &n) == 1) {				//while not end of file
+	while (scanf_s("%d", &n) == 1) {				//while not end of file
 		//
 		// Dave:  You shouldn't need a pass to read in the numbers and a second pass to calculate the difference.
 		//        Reading in the values and calculating the difference can be done in one pass.
 		//
 		for (i = 0; i < n; i++)					// for the nubmer of items on the line
 		{
-			scanf("%d", &Var[i]);				//shove that number into the varriable array
+			scanf_s("%d", &Var[i]);				//shove that number into the varriable array
 			Abs[i] = 0;							//set the memory for it in the absolute array to 0 - no one likes bad memory bits
 		}
 		
