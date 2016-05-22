@@ -5,6 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
+*.[Vv][Cc].db
+*.[Vv][Cc].opendb
 
 # Build results
 [Dd]ebug/
@@ -189,5 +191,6 @@ _Pvt_Extensions/
 ModelManifest.xml
 
 # More VS cruft
-*[Vv][Cc].db
 *.[Vv][Cc].opendb
+*.[Vv][Cc].opendb
+
