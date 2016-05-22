@@ -187,3 +187,7 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# More VS cruft
+*[Vv][Cc].db
+*.[Vv][Cc].opendb
